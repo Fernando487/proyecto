@@ -1,0 +1,17 @@
+body{background:#e8e8e8;color:#444;font-family:Arial;font-size:16px}
+header{background:#444;box-shadow:0 5px 0 rgba(0,0,0,0.2);color:#fff;overflow:hidden;padding:.5em;position:relative;}
+header .logo{border-right:1px solid #22bce0;float:left;width:170px;}
+header .logo img{width:160px}
+header .titular{margin:0 100px 0 185px;}
+header .titular .publicar{background:#dd4f24;color:#fff;float:right;font-style:italic;padding:.2em .5em;text-decoration:none;text-shadow:1px 1px 0 #000}
+header .titular .titulo{font-size:18px;font-weight:normal;margin:0;padding:0}
+header .usuario{position:absolute;top:0;right:0;}
+header .usuario .avatar{margin:.4em 1.5em 0 0;position:relative;z-index:2;}
+header .usuario .avatar img{border-radius:50%;width:80px}
+header .usuario .flechita{background:#dd4f24;color:#fff;display:block;position:absolute;padding:2px;right:10px;text-align:right;text-decoration:none;top:30px;width:50%;z-index:0}
+nav{background:#22bce0;border-left:15px solid #fff;position:relative;}
+nav:before{border-left:7px solid #f00;content:"";left:0;position:absolute;top:0}
+nav .menu{height:40px;line-height:40px;margin:0;padding:0;overflow-x:auto;white-space:nowrap;}
+nav .menu li{display:inline-block;}
+nav .menu li a{border:1px solid #f00;color:#fff;display:block;margin:0 .5em;padding:0 .2em;text-decoration:none;}
+nav .menu li a:hover{background:rgba(0,0,0,0.1)}
